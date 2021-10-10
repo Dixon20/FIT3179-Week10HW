@@ -38,8 +38,8 @@
       {
         "field": "val",
         "type": "quantitative",
-        "format": ".2%",
-        "title": "% of population living with HIV"
+        "format": ".1%",
+        "title": "% of population"
       }
     ]
   },
