@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/Dixon20/FIT3179/main/hiv_map2.csv"
+          "url": "https://raw.githubusercontent.com/Dixon20/FIT3179-Week10HW/main/hiv_map2.csv"
         },
         "key": "location",
         "fields": ["val"]
