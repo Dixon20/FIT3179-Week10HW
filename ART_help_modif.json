@@ -4,7 +4,7 @@
   "height": 400,
   "title": "Number of HIV/AIDS deaths and deaths averted due to ART (Antiretroviral theraphy) from 1990-2016",
   "data": {
-    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179_Assignment2/main/ART_help_modif.csv"
+    "url": "https://raw.githubusercontent.com/Dixon20/FIT3179-Week10HW/main/ART_help_modif.csv"
   },
   "params": [
     {
