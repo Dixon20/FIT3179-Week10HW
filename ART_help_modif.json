@@ -38,14 +38,14 @@
   "layer" : [
   {"mark" : "area",
     "encoding": {
-      "x": {"field": "Year", "type": "ordinal", "title": "Year","axis" : {"labelFontSize" : 8.5, "labelAngle" : 20}},
+      "x": {"field": "Year", "type": "ordinal", "title": "Year","axis" : {"labelFontSize" : 8.5, "labelAngle" : 20, "grid" : true}},
       "y": {"field": "value", "type": "quantitative","scale" : {"domainMin" : 0},"axis" : {"labelFontSize" : 6.9}},
       "color": {"field": "Group", "scale": {"scheme": "tableau10"}},
       "tooltip": [
         {"field": "Country", "type": "nominal", "title": "Area"},
         {"field": "Year", "type": "ordinal"},
         {"field": "Group", "type": "nominal"},
-        {"field": "value", "type": "quantitative", "format": ","}
+        {"field": "value", "type": "quantitative", "format": ",", "title" : "Saved/Deaths"}
       ]}},
   {
     "mark" : {
@@ -89,4 +89,6 @@
       }
     }  
       ]}
+       
+
        
